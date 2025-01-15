@@ -1,24 +1,36 @@
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Game content -->
-<div id="output"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scribe School</title>
+</head>
 
-<!-- Player input -->
-<div class="input">
-  <span class="ml-2">> </span><input id="input" autofocus spellcheck="false">
-</div>
+<body>
+  <!-- Game content -->
+  <div id="output"></div>
 
-<!-- CSS styles -->
-<link id="styles" rel="stylesheet" type="text/css" href="styles/modern.css">
+  <!-- Player input -->
+  <div class="input">
+    <span class="ml-2">> </span><input id="input" autofocus spellcheck="false">
+  </div>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Work+Sans&display=swap" rel="stylesheet">
+  <!-- CSS styles -->
+  <link id="styles" rel="stylesheet" type="text/css" href="styles/modern.css">
 
-<!-- Include game engine -->
-<script src="index.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&family=Work+Sans&display=swap"
+    rel="stylesheet">
 
-<!-- Include game data ('disk') -->
-<script src="disk_.js"></script>
+  <!-- Include game engine -->
+  <script src="index.js"></script>
 
-<!-- Load disk into engine -->
-<script>loadDisk(disk1);</script>
+  <!-- Include game data ('disk') -->
+  <script src="game-disks/demo-disk.js"></script>
+
+  <!-- Load disk into engine -->
+  <script>loadDisk(demoDisk);</script>
+</body>
+
+</html>
