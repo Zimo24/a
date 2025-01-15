@@ -11862,7 +11862,7 @@ function getRandomHieroglyph() {
   println(randomHieroglyph.html)
 }
 
-const disk = () => ({
+const disk1 = () => ({
   roomId: 'entrance',
   rooms: [
     {
